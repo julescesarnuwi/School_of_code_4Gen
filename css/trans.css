@@ -1,0 +1,25 @@
+.flex{
+               display: flex;
+
+}
+
+.flex div{
+               width: 158px;
+               height: 58px;
+               transition: width 300ms ease;
+}
+
+.flex div:hover{
+               width: 350px
+
+}
+               
+.red{
+               background-color: red;
+}
+.green{
+               background-color: green;
+}
+.blue{
+               background-color: blue;
+}

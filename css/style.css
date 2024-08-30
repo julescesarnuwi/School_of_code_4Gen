@@ -3,6 +3,9 @@
 body {
         
 }
+*{
+     box-sizing: border-boxw;
+}
 h1
 h2
 h3
@@ -23,7 +26,17 @@ p{
                 border-radius: 8px;
                 margin: 16px 32px 48px 56px;
                 padding: 24px;
+                width: 33%;
            }
            #bible-columns {
                 columns: 3;
+           }
+           
+           .flex-container {
+               width: 50%;
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: start;
+               align-items: center;
+               gap: 16px;
            }
